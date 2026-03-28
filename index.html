@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StupendousApps</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4efe4;
+        --fg: #17130f;
+        --muted: #6e6256;
+        --accent: #b65a2a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 32px;
+        background:
+          radial-gradient(circle at top, rgba(182, 90, 42, 0.16), transparent 36%),
+          var(--bg);
+        color: var(--fg);
+        font: 16px/1.5 Georgia, serif;
+      }
+
+      main {
+        max-width: 640px;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(2.8rem, 7vw, 5rem);
+        line-height: 0.95;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.125rem;
+      }
+
+      strong {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>StupendousApps</h1>
+      <p>Software should feel <strong>powerful</strong>, <strong>personal</strong>, and direct.</p>
+    </main>
+  </body>
+</html>
